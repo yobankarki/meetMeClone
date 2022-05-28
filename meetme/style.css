@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: rgb(54, 37, 73);
+}
+.top
+{
+	background: #362549;
+	opacity: 0.8;
+	border: none;
+	margin: none;
+	color: #C3BEC8;
+	padding: 5px 50px;
+}
+.top .col-md-8
+{
+	padding-top: 10px;
+	font-size: 20px;
+}
+.login
+{
+	background: #362549;
+	opacity: 0.8; 
+	width: 200px;
+	
+	border: #C3BEC8 2px solid;
+	outline: 1px #C3BEC8 solid
+
+}
+#body .top form button
+{
+	background: #403150;
+	opacity: 0.8;
+	border: 1px solid #ffffff;
+	margin-left: 200px;
+	padding-left: 15px;
+	padding-right: 25px;
+}
+#body
+{
+	background: url(01.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	
+	padding-bottom: 50px;
+}
+.signup
+{
+	height: 100%;
+	background: rgb(54, 37, 73, 0.7);
+	
+	width: 880px;
+	border-radius: 15px;
+	margin-top: 250px;
+	padding: 8px 0px 8px 16px;
+	margin-left:  auto;
+	margin-right: auto; 
+}
+
+.signup .bg1
+{
+	
+	background: transparent;
+	
+	height: 100%;
+	float: left;
+	width: 100%;
+}
+.signup img
+{
+	margin-top: 50px;
+	
+}
+
+.btnc
+{
+	background: rgb(54, 37, 73);
+	color: #ffffff !important;
+	text-align: left;
+	width: 160px;
+	margin: 4px;
+}
+.btnc:hover
+{
+	color:#ffffff;
+	border:1px solid #ffffff;
+}
+
+.signup .bg2
+{
+	
+	height: 100%;
+	background: #ffffff;
+	float: right;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+}
+.signup .form
+{
+	text-align: right;
+}
+.bg21
+{
+	text-align: center;	
+}
+.bg21 strong
+{
+	text-align: center;
+	font-size: 13px;
+}
+/* .bg21 .bg212
+{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #666;
+} */
+.bg21 .bg212 .line
+{
+	height: 1px;
+	border-bottom: 1px solid #999;
+	padding-top: 10px
+}
+.bg21 .bg212 .text
+{
+	padding-bottom: 20px;
+
+}
+.form input
+{
+	margin-bottom:0px;
+}
+.form span
+{
+	color: #666;
+}
+
+.form span a
+{
+	text-decoration: none;
+	color: #999;
+}
+
+.form-control
+{
+	height: 25px;
+}
+.form .btn
+{
+	background: rgb(85, 175, 34);
+	color: white;
+}
+
+.signup .bg23
+{
+	color: #666;
+	font-size: 8px;
+	text-align: right;
+}
+
+
+
+#footer
+{
+	background: #362549;
+	height: 130px;
+	color: #ffffff;
+}
+#footer .row
+{
+	margin-top: 20px;
+}
